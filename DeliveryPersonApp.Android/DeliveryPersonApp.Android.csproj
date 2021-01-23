@@ -144,18 +144,6 @@
     <Folder Include="Resources\mipmap-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DeliveriesApp\DeliveriesApp\DeliveriesApp.csproj">
-      <Project>{8fca4db4-5081-43a8-85f4-198f5f4c1d0a}</Project>
-      <Name>DeliveriesApp</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="xamandroidsupportv7appcompat">
-      <Visible>False</Visible>
-      <Version>23.4.0.1</Version>
-    </XamarinComponentReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\xml\shortcuts.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
